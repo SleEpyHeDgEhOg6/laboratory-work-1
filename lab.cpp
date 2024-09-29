@@ -16,7 +16,7 @@ int main() {
     cin>>carc;
 
     double Nnew=Nuc*(1-cara)*(1-carb)*(1-carc); //расчет нового расхода топлива 
-    double ot=Nuc-Nnew; //рассчет фактической экономии
+    double ot=Nuc-Nnew; //расчет фактической экономии
 
     
     std::cout<<"Исходное значение:"<<Nuc<<std::endl;
